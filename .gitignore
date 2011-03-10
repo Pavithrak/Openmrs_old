@@ -1,0 +1,17 @@
+**/target/
+target/
+.settings/
+.project
+**/*.swp
+*.classpath
+*.swp
+bin/*
+*DS_Store
+ideafiles/*
+omod/src/test/resources/scripts/test/debugMode/*
+*.springBeans
+*.iml
+**/*.iml
+*.ipr
+*.iws
+.idea/**

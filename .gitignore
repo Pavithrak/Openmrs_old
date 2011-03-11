@@ -15,3 +15,5 @@ omod/src/test/resources/scripts/test/debugMode/*
 *.ipr
 *.iws
 .idea/**
+**/database/**
+database/*

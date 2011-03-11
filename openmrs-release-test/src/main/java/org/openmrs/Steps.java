@@ -70,6 +70,11 @@ public abstract class Steps {
 		context.type(text, inputFinder);
 	}
 
+    protected void clear(String xpath) {
+		   driver.findElement(By.xpath(xpath)).clear();
+
+	}
+
 	/**
 	 * Syntactic sugar to use with {@link HamcrestWebDriverTestCase#type(String,
 	 * Finder<WebElement, WebDriver>)}, e.g. type("cheese", into(textbox()));

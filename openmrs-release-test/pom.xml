@@ -79,8 +79,13 @@
                         </extraClasspath>
 
                     </webAppConfig>
-                    <stopKey/>
-                    <stopPort/>
+                    <systemProperties>
+                        <systemProperty>
+                            <name>in_Memory</name>
+                            <value>true</value>
+                        </systemProperty>
+                    </systemProperties>
+
                 </configuration>
 
                 <executions>
@@ -113,7 +118,7 @@
                         <phase>integration-test</phase>
                         <configuration>
                             <includes>
-                                <include>**/stories/*.java</include>
+                                <include>**/stories/InstallationWizard.java</include>
                             </includes>
                         </configuration>
                         <goals>

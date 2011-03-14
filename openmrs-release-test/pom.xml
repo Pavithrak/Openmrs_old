@@ -105,6 +105,10 @@
                         <goals>
                             <goal>stop</goal>
                         </goals>
+                        <configuration>
+                            <stopPort>8080</stopPort>
+                            <stopKey>stop</stopKey>
+                        </configuration>
                     </execution>
                 </executions>
             </plugin>
